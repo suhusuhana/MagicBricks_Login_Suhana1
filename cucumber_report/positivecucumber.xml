@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="68.479" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="login2" name="Verify MagicBricksApp login functionality with invalid emailid - Example #1.1" time="31.105">
+<system-out><![CDATA[
+Given Chrome is opened and MagicBricksApp is launched.......................passed
+Then User navigates on Landing Page.........................................passed
+When User clicks on Login button............................................passed
+Then User Navigates to Login Page...........................................passed
+Then User enters correct Emailid and password from sheetname "Sheet1" and rownumber 0.passed
+Then User gets message your loggedin........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login2" name="Verify MagicBricksApp login functionality with invalid emailid - Example #1.2" time="37.009">
+<system-out><![CDATA[
+Given Chrome is opened and MagicBricksApp is launched.......................passed
+Then User navigates on Landing Page.........................................passed
+When User clicks on Login button............................................passed
+Then User Navigates to Login Page...........................................passed
+Then User enters correct Emailid and password from sheetname "Sheet1" and rownumber 1.passed
+Then User gets message your loggedin........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
